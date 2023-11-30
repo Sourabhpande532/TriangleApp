@@ -1,20 +1,24 @@
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Is Triangle</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Triangle Checker</title>
+    <link rel="stylesheet" href="main.css">
 </head>
 
 <body>
     <div class="container">
-        <label for="angle1">angle1:</label>
-        <input type="number" class="user-angle-input" /><br />
-        <label for="angle2">angle2:</label>
-        <input type="number" class="user-angle-input" /><br />
-        <label for="angle3">angle3:</label>
-        <input type="number" class="user-angle-input" /><br />
-        <button id="is-button-triangle">Is Triangle ?</button>
+        <div class="nav-brand">Sum of Angles of Triangle is 180 &#176</div>
+        <p>Enter 3 angles of traingle</p>
+        <label for="angle1">Angle a:</label>
+        <input type="number" class="user-angle-input" placeholder="Angle 1" /><br />
+        <label for="angle2">Angle b:</label>
+        <input type="number" class="user-angle-input" placeholder="Angle 2" /><br />
+        <label for="angle3">Angle c:</label>
+        <input type="number" class="user-angle-input" placeholder="Angle 3" /><br />
+        <button id="is-button-triangle">Check Triangle</button>
         <div class="display-output"></div>
         <script src="script.js"></script>
     </div>
