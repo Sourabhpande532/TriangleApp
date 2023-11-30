@@ -14,9 +14,9 @@ function isTriangle() {
   if (angleA && angleB && angleC) {
     const sumOfAngles = calculateSumOfAngles(angleA, angleB, angleC);
     if (sumOfAngles === 180) {
-      showResultEl.innerText = "Yehh!😍 The Angle is forming Triangle";
+      showResultEl.innerText = "Yehh!😍 Yes There is angle of triangle formed";
     } else {
-      showResultEl.innerText = "Oohh!😔 Sadly The Angle not Formed Triangle";
+      showResultEl.innerText = "Oohh!😔 Sadly The angle not Formed of triangle";
     }
   } else {
     showResultEl.innerText = "Oohh!🤔 all field is required";
