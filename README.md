@@ -1,4 +1,4 @@
-# Is Triangle
+# Triangle App 
 By Sourabh Pande
 
 ![Sourabh](https://img.shields.io/badge/sourabh--Pande-JS--Developer-green)
